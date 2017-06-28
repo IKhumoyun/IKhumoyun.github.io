@@ -168,6 +168,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: #000000;
 }
 
 #social {
@@ -191,6 +192,9 @@ body {
     list-style-type: none;
     display: inline-block;
 }
+
+.col-md-6 {
+text-align: center;}
 
 #social ul li a {
     margin: 10px 0;
