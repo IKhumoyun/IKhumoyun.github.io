@@ -319,3 +319,8 @@ input:focus ~ .highlight {
     from { background:#1ed072; }
     to 	{ width:0; background:transparent; }
 }
+@media (max-width: 480px) {
+    modal-title {
+        font-size: 24px;
+    }
+}
