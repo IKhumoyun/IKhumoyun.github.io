@@ -327,6 +327,6 @@ input:focus ~ .highlight {
 .container {
   min-height: calc(100vh - 70px);
 }
-.footer {
+.site-footer {
   height: 50px;
 }
