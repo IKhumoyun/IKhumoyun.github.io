@@ -1,4 +1,5 @@
 body {
+    height: 100%
     color: #ffffff;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -335,7 +336,4 @@ input:focus ~ .highlight {
 .site-footer, .page-wrap:after {
   /* .push must be the same height as footer */
     height: 142px; 
-}
-.site-footer {
-  background: orange;
 }
