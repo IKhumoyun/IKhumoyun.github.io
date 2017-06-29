@@ -28,7 +28,6 @@ h5 {
     font-weight: 300;
     padding-top: 300px;
     font-family: 'Oswald', sans-serif;
-    padding-bottom: 20px;
 }
 .modal-header {
     height: 180px;
@@ -328,9 +327,6 @@ input:focus ~ .highlight {
     }
 }
 
-.container {
-  min-height: calc(100vh - 70px);
-}
 .site-footer {
   height: 50px;
 }
