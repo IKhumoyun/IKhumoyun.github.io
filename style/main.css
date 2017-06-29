@@ -11,16 +11,19 @@ a {
 }
 
 h1 {
+    color: #ffffff;
     font-size: 50px;
     font-family: 'Oswald';
 }
 
 h3 {
+    color: #ffffff;
     font-weight: 300;
     font-family: 'Oswald';
 }
 
 h5 {
+    color: #ffffff;
     font-size: 23px;
     font-weight: 300;
     padding-top: 300px;
@@ -173,6 +176,7 @@ body {
 }
 
 #social {
+    padding: 50px 0 50px 0;
     text-align: right;
 }
 
