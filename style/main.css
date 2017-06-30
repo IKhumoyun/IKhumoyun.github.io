@@ -332,6 +332,6 @@ input:focus ~ .highlight {
         font-size: 24px;
     }
     .pad-top {
-    padding-top: 15px;
+    margin-bottom: 15px;
     }
 }
