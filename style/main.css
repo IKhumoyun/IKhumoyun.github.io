@@ -334,4 +334,61 @@ input:focus ~ .highlight {
     .pad-top {
     margin-bottom: 15px;
     }
+    .modal-footer button{
+    padding: 10px;
+}
+
+.modal-footer #cancel {
+    text-decoration: none;
+    color: #000000;
+    border-width: 2px;
+    border: solid;
+    border-color: #000000;
+    padding: 0 0 0 0;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+.modal-footer #cancel:hover {
+    text-decoration: none;
+    color: #ffffff;
+    border-width: 2px;
+    border: solid;
+    border-color: #000000;
+    padding: 0 0 0 0;
+    border-radius: 20px;
+    background-color: #000000;
+    outline: 0;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.modal-footer #approve {
+    text-decoration: none;
+    color: #1ed072;
+    border-width: 2px;
+    border: solid;
+    border-color: #1ed072;
+    padding: 0 0 0 0;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+.modal-footer #approve:hover {
+    text-decoration: none;
+    color: #ffffff;
+    border-width: 2px;
+    border: solid;
+    border-color: #1ed072;
+    padding: 0 0 0 0;
+    border-radius: 20px;
+    background-color: #1ed072;
+    outline: 0;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
 }
