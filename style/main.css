@@ -344,7 +344,7 @@ input:focus ~ .highlight {
     border-width: 2px;
     border: solid;
     border-color: #000000;
-    padding: 0 0 0 0;
+    padding: 5px 15px 5px 15px;
     border-radius: 20px;
     background-color: transparent;
     outline: 0;
@@ -357,7 +357,7 @@ input:focus ~ .highlight {
     border-width: 2px;
     border: solid;
     border-color: #000000;
-    padding: 0 0 0 0;
+    padding: 5px 15px 5px 15px;
     border-radius: 20px;
     background-color: #000000;
     outline: 0;
@@ -371,7 +371,7 @@ input:focus ~ .highlight {
     border-width: 2px;
     border: solid;
     border-color: #1ed072;
-    padding: 0 0 0 0;
+    padding: 5px 15px 5px 15px;
     border-radius: 20px;
     background-color: transparent;
     outline: 0;
@@ -384,7 +384,7 @@ input:focus ~ .highlight {
     border-width: 2px;
     border: solid;
     border-color: #1ed072;
-    padding: 0 0 0 0;
+    padding: 5px 15px 5px 15px;
     border-radius: 20px;
     background-color: #1ed072;
     outline: 0;
