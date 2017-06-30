@@ -29,6 +29,7 @@ h5 {
     padding-top: 44%;
     font-family: 'Oswald', sans-serif;
 }
+
 .modal-header {
     height: 180px;
     background-image: url("../img/modal-back.png");
@@ -39,6 +40,7 @@ h5 {
 }
 
 .modal-title {
+    color: #ffffff;
     padding-top: 40px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -322,7 +324,7 @@ input:focus ~ .highlight {
     to 	{ width:0; background:transparent; }
 }
 @media (max-width: 480px) {
-    modal-title {
+    modal-title h4 {
         font-size: 24px;
     }
 }
