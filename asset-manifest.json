@@ -1,12 +1,12 @@
 {
-  "main.css": "/movie-saga/static/css/main.d98a18f3.chunk.css",
-  "main.js": "/movie-saga/static/js/main.d9cace19.chunk.js",
-  "static/js/1.ee1176ba.chunk.js": "/movie-saga/static/js/1.ee1176ba.chunk.js",
-  "runtime~main.js": "/movie-saga/static/js/runtime~main.bd54f581.js",
-  "static/media/MuseoSansCyrl-100.ttf": "/movie-saga/static/media/MuseoSansCyrl-100.03100032.ttf",
-  "static/media/logo.svg": "/movie-saga/static/media/logo.e26de434.svg",
-  "static/media/search.svg": "/movie-saga/static/media/search.8df84450.svg",
-  "index.html": "/movie-saga/index.html",
-  "precache-manifest.969b0bfc850b1860e515147055d4ac09.js": "/movie-saga/precache-manifest.969b0bfc850b1860e515147055d4ac09.js",
-  "service-worker.js": "/movie-saga/service-worker.js"
+  "main.css": "/static/css/main.d98a18f3.chunk.css",
+  "main.js": "/static/js/main.d9cace19.chunk.js",
+  "static/js/1.b794d39d.chunk.js": "/static/js/1.b794d39d.chunk.js",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "static/media/MuseoSansCyrl-100.ttf": "/static/media/MuseoSansCyrl-100.03100032.ttf",
+  "static/media/logo.svg": "/static/media/logo.e26de434.svg",
+  "static/media/search.svg": "/static/media/search.8df84450.svg",
+  "index.html": "/index.html",
+  "precache-manifest.09d44c20259a6d5b76f720ff9b1b6c6a.js": "/precache-manifest.09d44c20259a6d5b76f720ff9b1b6c6a.js",
+  "service-worker.js": "/service-worker.js"
 }
