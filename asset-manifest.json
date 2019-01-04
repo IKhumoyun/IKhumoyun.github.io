@@ -1,12 +1,12 @@
 {
-  "main.css": "/static/css/main.d98a18f3.chunk.css",
-  "main.js": "/static/js/main.d9cace19.chunk.js",
-  "static/js/1.b794d39d.chunk.js": "/static/js/1.b794d39d.chunk.js",
+  "main.css": "/static/css/main.b55fef53.chunk.css",
+  "main.js": "/static/js/main.b2dacf57.chunk.js",
+  "static/js/1.dfbfc280.chunk.js": "/static/js/1.dfbfc280.chunk.js",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "static/media/MuseoSansCyrl-100.ttf": "/static/media/MuseoSansCyrl-100.03100032.ttf",
   "static/media/logo.svg": "/static/media/logo.e26de434.svg",
   "static/media/search.svg": "/static/media/search.8df84450.svg",
   "index.html": "/index.html",
-  "precache-manifest.09d44c20259a6d5b76f720ff9b1b6c6a.js": "/precache-manifest.09d44c20259a6d5b76f720ff9b1b6c6a.js",
+  "precache-manifest.6de1534ebb449c5be5fb35d556b5a088.js": "/precache-manifest.6de1534ebb449c5be5fb35d556b5a088.js",
   "service-worker.js": "/service-worker.js"
 }
