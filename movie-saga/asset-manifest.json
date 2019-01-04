@@ -1,12 +1,12 @@
 {
   "main.css": "/movie-saga/static/css/main.d98a18f3.chunk.css",
-  "main.js": "/movie-saga/static/js/main.920ee90f.chunk.js",
+  "main.js": "/movie-saga/static/js/main.d9cace19.chunk.js",
   "static/js/1.ee1176ba.chunk.js": "/movie-saga/static/js/1.ee1176ba.chunk.js",
   "runtime~main.js": "/movie-saga/static/js/runtime~main.bd54f581.js",
   "static/media/MuseoSansCyrl-100.ttf": "/movie-saga/static/media/MuseoSansCyrl-100.03100032.ttf",
   "static/media/logo.svg": "/movie-saga/static/media/logo.e26de434.svg",
   "static/media/search.svg": "/movie-saga/static/media/search.8df84450.svg",
   "index.html": "/movie-saga/index.html",
-  "precache-manifest.dd96f3caddd64712dcffacef99694b57.js": "/movie-saga/precache-manifest.dd96f3caddd64712dcffacef99694b57.js",
+  "precache-manifest.969b0bfc850b1860e515147055d4ac09.js": "/movie-saga/precache-manifest.969b0bfc850b1860e515147055d4ac09.js",
   "service-worker.js": "/movie-saga/service-worker.js"
 }
