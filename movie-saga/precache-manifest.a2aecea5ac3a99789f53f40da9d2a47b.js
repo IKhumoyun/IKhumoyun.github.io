@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/movie-saga/static/js/runtime~main.bd54f581.js"
   },
   {
-    "revision": "d9cace190a59226d7b5e",
-    "url": "/movie-saga/static/js/main.d9cace19.chunk.js"
+    "revision": "939832b8ec5b676312d5",
+    "url": "/movie-saga/static/js/main.939832b8.chunk.js"
   },
   {
     "revision": "ee1176baa5ef127592fc",
     "url": "/movie-saga/static/js/1.ee1176ba.chunk.js"
   },
   {
-    "revision": "d9cace190a59226d7b5e",
+    "revision": "939832b8ec5b676312d5",
     "url": "/movie-saga/static/css/main.d98a18f3.chunk.css"
   },
   {
-    "revision": "5e864c9c3c1e34f3e0a925cba9238043",
+    "revision": "6a441c586cf382dc503b38fb9788f9d9",
     "url": "/movie-saga/index.html"
   }
 ];
