@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="fsvs" id="no-slide">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 
@@ -8,7 +8,7 @@
 		<!-- build:css styles/vendor.css -->
 		<link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="./libs/animate/animate.min.css">
-		<link rel="stylesheet" href="./libs/fullpage/fullpage.css">
+		<link rel="stylesheet" href="./libs/fullpage/fullpage.min.css">
 		<!-- endbuild -->
 
 		<!-- build:css styles/main.css -->
@@ -27,8 +27,9 @@
 			<!-- endbuild -->
 
 			<!-- build:js scripts/vendor.min.js -->
-			<script src="./libs/fullpage/fullpage.js"></script>
 			<script src="./libs/wow/wow.min.js"></script>
+			<script src="./libs/fullpage/fullpage.min.js"></script>
+			<script src="./libs/fullpage/fullpage.extensions.min.js"></script>
 			<!-- endbuild -->
 
 			<!-- build:js scripts/main.js -->
