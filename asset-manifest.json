@@ -1,11 +1,12 @@
 {
-  "main.css": "/static/css/main.01e9e035.chunk.css",
-  "main.js": "/static/js/main.da6fcc14.chunk.js",
-  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
-  "static/js/2.059c9a56.chunk.js": "/static/js/2.059c9a56.chunk.js",
+  "main.css": "/static/css/main.b55fef53.chunk.css",
+  "main.js": "/static/js/main.086e6156.chunk.js",
+  "static/js/1.dfbfc280.chunk.js": "/static/js/1.dfbfc280.chunk.js",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "static/media/MuseoSansCyrl-100.ttf": "/static/media/MuseoSansCyrl-100.03100032.ttf",
+  "static/media/logo.svg": "/static/media/logo.e26de434.svg",
+  "static/media/search.svg": "/static/media/search.8df84450.svg",
   "index.html": "/index.html",
-  "precache-manifest.c598ec3764cb863f571a2e21f0dfa102.js": "/precache-manifest.c598ec3764cb863f571a2e21f0dfa102.js",
-  "service-worker.js": "/service-worker.js",
-  "static/media/main.scss": "/static/media/MuseoSansCyrl-900.3b1501e4.ttf",
-  "static/media/logo.svg": "/static/media/logo.e26de434.svg"
+  "precache-manifest.2cec6ddbe5f4abb41c595e5132bd3049.js": "/precache-manifest.2cec6ddbe5f4abb41c595e5132bd3049.js",
+  "service-worker.js": "/service-worker.js"
 }
