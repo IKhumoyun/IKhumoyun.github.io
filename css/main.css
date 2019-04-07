@@ -503,6 +503,27 @@ nav .social {
     z-index: 1;
     text-align: center;
 }
+
+
+#watch {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    right: 70px;
+    bottom: 70px;
+}
+
+#watch:before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    left: -20px;
+    background-image: url("../img/lightning.svg");
+    width: 15.59px;
+    height: 23.92px;
+}
+
 .hero-section #sign-up{
     margin-top: 50px;
     padding-left: 40px;
@@ -959,32 +980,7 @@ nav .social {
     width: 225px;
 }
 
-.iphone::before {
-    content: "";
-    position: absolute;
-    left: 57%;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100vw;
-    background-color: #fff;
-    margin: auto;
-    z-index: 2;
-}
-
-.iphone::after {
-    content: "";
-    width: 100vw;
-    top: 0;
-    right: 100%;
-    bottom: 0;
-    margin: auto;
-    z-index: 2;
-}
-
 .iphone img {
-    position: absolute;
     top: 140px;
     left: 0;
     right: 0;
@@ -993,6 +989,12 @@ nav .social {
     width: 301px;
     margin: auto;
     z-index: 4;
+}
+
+.screenshot-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-section .section-heading h2 {
@@ -1609,4 +1611,124 @@ input:focus ~ .highlight {
 @keyframes inputHighlighter {
     from { background:#537eff; }
     to 	{ width:0; background:transparent; }
+}
+
+@media(max-width: 900px) {
+    .promo-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promo-content {
+        width: 100%;
+        border: none;
+    }
+
+    .promo-content:nth-child(2) {
+        border: none;
+    }
+
+    .feature-section .section-heading h2 {
+        padding: 0;
+    }
+
+    .feature-section .section-heading h2::before {
+        content: "";
+        margin: auto;
+        position: absolute;
+        width: 127px;
+        height: 1px;
+        background: #e34344;
+        top: 0px;
+        bottom: 0;
+        left: 300px;
+    }
+
+    .feature-section .section-heading h2::after {
+        content: "";
+        margin: auto;
+        position: absolute;
+        width: 127px;
+        height: 1px;
+        background: #e34344;
+        top: 0px;
+        bottom: 0;
+        right: 300px;
+    }
+
+    .feature-items {
+        display: flex;
+        flex-direction: column;
+        margin-top: -15px;
+        margin-bottom: -15px;
+    }
+
+    .feature-box {
+        padding: 50px 40px;
+        border-radius: 3px;
+        transition: all 0.3s ease-in-out;
+        width: 100%;
+    }
+
+    .feature-box .feature-icon {
+        background: #e34344;
+        color: #fff;
+        font-size: 50px;
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .feature-box:nth-child(2) {
+        border: none;
+    }
+
+    .team-section .team-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-section .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        padding: 20px 0;
+    }
+
+    .left-box, .right-box {
+        border: none;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .right-box {
+        padding-top: 20px;
+    }
+
+    .video-section {
+        height: 100%;
+    }
+
+    #backVideo {
+        height: 100%;
+    }
+
+    .video-section video {
+        width: 100%;
+    }
+
+    footer .footer-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-inner * {
+        margin: 10px 0;
+    }
 }
