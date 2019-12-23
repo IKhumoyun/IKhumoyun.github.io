@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>play-button (1) copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="INDEX-2" transform="translate(-818.000000, -1106.000000)" fill-rule="nonzero">
+            <g id="play-button-(1)-copy" transform="translate(820.000000, 1108.000000)">
+                <path d="M30,0 C13.4316797,0 0,13.4314453 0,30 C0,46.5685547 13.4316797,60 30,60 C46.5683203,60 60,46.5685547 60,30 C60,13.4314453 46.5683203,0 30,0 Z" id="Shape" stroke="#FFFFFF" stroke-width="3"></path>
+                <path d="M40.36875,31.5902344 L25.36875,40.9652344 C25.0652344,41.1547266 24.7201172,41.25 24.375,41.25 C24.0623438,41.25 23.7492188,41.1721875 23.4658594,41.0146875 C22.8698438,40.6842187 22.5,40.0570313 22.5,39.375 L22.5,20.625 C22.5,19.9429688 22.8698438,19.3157813 23.4658594,18.9853125 C24.061875,18.6529688 24.7906641,18.673125 25.36875,19.0347656 L40.36875,28.4097656 C40.9167188,28.753125 41.25,29.3537109 41.25,30 C41.25,30.6462891 40.9167188,31.2469922 40.36875,31.5902344 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
