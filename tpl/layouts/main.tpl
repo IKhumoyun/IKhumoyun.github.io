@@ -4,27 +4,48 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title | title }}</title>
+	
+	<!-- build:css styles/vendor.css -->
+	<link href="./styles/bootstrap-grid.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./libs/owl/owl.carousel.css">
+	<!-- endbuild -->
+
 	<!-- build:css styles/main.css -->
 	<link href="styles/main.css" rel="stylesheet">
-	<link href="../../styles/bootstrap-grid.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="../../libs/lightbox/css/lightgallery.min.css">
 	<!-- endbuild -->
+
 </head>
 <body>
+	<div class="overlay"></div>
 
-	<div class="container">
-		<header>
+	<div class="side-menu">
+		<img src="../../images/icons/close.svg" alt="" id="close-button">
+		<div class="items-holder">
+			<a href="#" class="menu-item">Home</a>
+			<a href="#" class="menu-item">FAQ</a>
+			<a href="#" class="menu-item">Ambassadors</a>
+			<a href="#" class="menu-item">Our team</a>
+			<a href="#" class="menu-item">Contact us</a>
+		</div>
+		<img src="../../images/icons/leaves.svg" alt="" class="leaves">
+	</div>
+
+	<header class="scrolled">
+		<div class="container">
 			<div class="left-side">
+				<img src="../../images/icons/burger.svg" alt="" id="burger">
+			</div>
+			<div class="middle-side">
 				<a href="#" class="header-links">Home</a>
 				<a href="#" class="header-links">Greening Initiative</a>
 				<a href="#" class="header-links">Aral Sea Tragedy</a>
-				<a href="#" class="header-links">Ambassadors</a>
 			</div>
 			<div class="right-side">
-				<a href="#" class="plant">Plant a tree</a>
+				<a href="#" class="plant">USD</a>
+				<a href="#" class="plant">UZS</a>
 			</div>
-		</header>
-	</div>
+		</div>
+	</header>
 
 	{% block content %} {% endblock %}
 
@@ -93,10 +114,16 @@
 		</div>
 	</footer>
 
-	<!-- build:css scripts/main1.js -->
-	<script src="../../libs/jquery/jquery.min.js"></script>
-	<script src="../../libs/lightbox/js/lightgallery.min.js"></script>
-	<script src="../../scripts/main.js"></script>
+	<!-- build:js scripts/jquery.min.js -->
+	<script src="./libs/jquery/jquery.min.js"></script>
+	<!-- endbuild -->
+
+	<!-- build:js scripts/vendor.min.js -->
+	<script src="./libs/owl/owl.carousel.min.js"></script>
+	<!-- endbuild -->
+
+	<!-- build:js scripts/main.js -->
+	<script src="scripts/main.js"></script>
 	<!-- endbuild -->
 
 </body>
