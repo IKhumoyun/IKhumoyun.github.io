@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="330px" height="188px" viewBox="0 0 330 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Подборки-Copy" transform="translate(-1121.000000, -193.000000)">
+            <g id="Group-3-Copy-2" transform="translate(1121.000000, 193.000000)">
+                <g id="Group-2">
+                    <g id="Group-4">
+                        <rect id="Rectangle" fill-opacity="0.1" fill="#D8D8D8" x="0" y="0" width="330" height="188" rx="4"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" opacity="0.329450335" x="10" y="10" width="20" height="24" rx="5"></rect>
+                        <rect id="Rectangle-Copy-3" fill="#FFFFFF" opacity="0.329450335" x="300" y="10" width="20" height="24" rx="5"></rect>
+                        <rect id="Rectangle-Copy" fill="#FFFFFF" opacity="0.329450335" x="10" y="46" width="20" height="24" rx="5"></rect>
+                        <rect id="Rectangle-Copy-8" fill="#FFFFFF" opacity="0.329450335" x="300" y="46" width="20" height="24" rx="5"></rect>
+                        <rect id="Rectangle-Copy-2" fill="#FFFFFF" opacity="0.329450335" x="10" y="82" width="20" height="24" rx="5"></rect>
+                        <rect id="Rectangle-Copy-9" fill="#FFFFFF" opacity="0.329450335" x="300" y="82" width="20" height="24" rx="5"></rect>
+                        <rect id="Rectangle-Copy-6" fill="#FFFFFF" opacity="0.329450335" x="10" y="118" width="20" height="24" rx="5"></rect>
+                        <rect id="Rectangle-Copy-10" fill="#FFFFFF" opacity="0.329450335" x="300" y="118" width="20" height="24" rx="5"></rect>
+                        <rect id="Rectangle-Copy-7" fill="#FFFFFF" opacity="0.329450335" x="10" y="154" width="20" height="24" rx="5"></rect>
+                        <rect id="Rectangle-Copy-11" fill="#FFFFFF" opacity="0.329450335" x="300" y="154" width="20" height="24" rx="5"></rect>
+                        <g id="player_play" opacity="0.5" transform="translate(125.000000, 62.000000)">
+                            <g id="Group-5">
+                                <g>
+                                    <rect id="Rectangle" x="0" y="0" width="80" height="64"></rect>
+                                    <path d="M40.7925767,15.6086822 L62.9300569,47.9787536 C63.2418228,48.4346269 63.1250007,49.0569214 62.6691274,49.3686874 C62.5028396,49.4824095 62.3060809,49.5432558 62.1046253,49.5432558 L17.8923463,49.5432558 C17.3400615,49.5432558 16.8923463,49.0955405 16.8923463,48.5432558 C16.8923463,48.3422503 16.9529211,48.1459101 17.06617,47.9798441 L39.1409688,15.6097727 C39.4521325,15.1534881 40.0742722,15.0358443 40.5305568,15.347008 C40.6334259,15.4171597 40.7222892,15.5059057 40.7925767,15.6086822 Z" id="ic_player_play" fill="#FFFFFF" transform="translate(40.000000, 31.971628) rotate(90.000000) translate(-40.000000, -31.971628) "></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

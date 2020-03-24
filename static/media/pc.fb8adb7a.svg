@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="28px" viewBox="0 0 33 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>pc</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="active-session" transform="translate(-22.000000, -20.000000)">
+            <g id="pc" transform="translate(22.500000, 17.000000)">
+                <g id="Group">
+                    <path d="M29.0909091,3 L2.90909091,3 C1.30909091,3 0,4.26 0,5.8 L0,22.6 C0,24.14 1.30909091,25.4 2.90909091,25.4 L13.0909091,25.4 L13.0909091,28.2 L10.1818182,28.2 L10.1818182,31 L21.8181818,31 L21.8181818,28.2 L18.9090909,28.2 L18.9090909,25.4 L29.0909091,25.4 C30.6909091,25.4 32,24.14 32,22.6 L32,5.8 C32,4.26 30.6909091,3 29.0909091,3 L29.0909091,3 Z M2.90909091,5.8 L29.0909091,5.8 L29.0909091,22.6 L2.90909091,22.6 L2.90909091,5.8 Z" id="Fill-309" fill="#FFFFFF"></path>
+                    <rect id="Rectangle" x="0" y="0" width="32" height="34"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

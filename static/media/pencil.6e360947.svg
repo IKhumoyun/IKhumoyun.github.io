@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="profile" transform="translate(-781.000000, -253.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="pencil" filter="url(#filter-1)" transform="translate(775.000000, 246.000000)">
+                <path d="M22.1302,10.7945 L20.7055,12.2192 L17.8054,9.3193 L16.7052,10.4195 L19.6053,13.3196 L12.4921,20.4322 L9.5922,17.5326 L8.492,18.6328 L11.3919,21.5327 L10.6831,22.2415 L10.6696,22.228 C10.591,22.3574 10.4632,22.4518 10.3114,22.4855 L7.6071,23.0885 C7.5666,23.0976 7.5254,23.102 7.4847,23.102 C7.3371,23.102 7.1937,23.0439 7.0874,22.9373 C6.951,22.8014 6.8942,22.6051 6.9362,22.417 L7.5389,19.7135 C7.5729,19.5618 7.6675,19.4337 7.7967,19.3553 L7.783,19.3416 L19.23,7.8941 C19.3978,7.7266 19.6704,7.7266 19.8382,7.8946 L22.1304,10.1863 C22.2982,10.3541 22.2982,10.6267 22.1302,10.7945 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
