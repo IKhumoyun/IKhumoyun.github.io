@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Index</title>
+    <title>Movie List</title>
     <link rel="stylesheet" href="styles/vendor.css">
     <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -13,7 +13,7 @@
     <header class="header">
         <div class="container">
             <div class="header-inner">
-                <a href="index.html" class="header-logo">
+                <a href="/" class="header-logo">
                     <img src="./images/icons/logo.svg" alt="">
                 </a>
                 <div class="header-links"><a href="#" class="header-link">Новинки</a>  <a href="/movie-list.html" class="header-link">Каталог</a>  <a href="#" class="header-link">Подборки</a>  <a href="#" class="header-link">Подписки</a>  <a href="#" class="header-link">Мои фильмы</a> 
@@ -35,83 +35,60 @@
         </div>
     </header>
     <div class="content-wrapper">
-        <div class="homepage-carousel">
-            <div class="homepage-carousel-main container mini-container">
-                <div class="homepage-carousel-info">
-                    <div class="labels-holder"><span class="label new">Новинка</span>  <span class="label quality">FULL HD</span>
-                    </div>
-                    <h1 class="movie-title">Ford против Ferrari</h1>
-                    <div class="meta-holder"><span class="year-rating">2019 | 16 +</span>  <span class="rating imdb">6.9</span>  <span class="rating kinopoisk">6.518</span>
-                    </div>
-                    <div class="watch-actions">
-                        <button class="watch-button">
-                            <img src="./images/icons/watch.svg" alt="">
-                            <h6 class="button-label">Смотреть<span>по подписке</span></h6>
-                        </button>
-                        <button class="watch-button favorite">
-                            <img src="./images/icons/Play.svg" alt="">
-                            <h6 class="button-label">Добавить<span>в избранное</span></h6>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="homepage-carousel-nav">
-                <div class="container mini-container">
-                    <div class="left-side">
-                        <div class="ring-component">
-                            <img src="./images/icons/ellipsis.svg" alt="">
-                        </div>
-                        <div class="dots-wrapper">
-                            <a href="#" class="dot active"></a>
-                            <a href="#" class="dot"></a>
-                            <a href="#" class="dot"></a>
-                            <a href="#" class="dot"></a>
-                        </div>
-                    </div>
-                    <div class="right-side">
-                        <div class="carousel-actions">
-                            <button class="carousel-button prev"></button>
-                            <button class="carousel-button active"></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="watching-list">
-                    <div class="watching-header"><a href="#" class="watching-title">Продолжать смотреть</a>
-                    </div>
-                    <div class="watching-body">
-                        <a href="#" class="watching-card">
-                            <img src="./images/hollywood.png" class="watching-card-img"> <span class="watching-card-title">Мстители: Финал</span>
-                            <div class="watching-card-progress">
-                                <div class="watching-progress-inner" style="width:50%"></div>
-                            </div>
-                        </a>
-                        <a href="#" class="watching-card">
-                            <img src="./images/hollywood.png" class="watching-card-img"> <span class="watching-card-title">Мстители: Финал</span>
-                            <div class="watching-card-progress">
-                                <div class="watching-progress-inner" style="width:20%"></div>
-                            </div>
-                        </a>
-                        <a href="#" class="watching-card">
-                            <img src="./images/hollywood.png" class="watching-card-img"> <span class="watching-card-title">Мстители: Финал</span>
-                            <div class="watching-card-progress">
-                                <div class="watching-progress-inner" style="width:12%"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="container">
-            <div class="movie-carousel">
-                <div class="carousel-header"><a href="#" class="carousel-title">Новое кино</a>
-                    <div class="carousel-actions">
-                        <button class="carousel-button prev"></button>
-                        <button class="carousel-button active"></button>
-                    </div>
+            <div class="movie-page">
+                <h2 class="page-title">Каталог</h2>
+                <div class="movie-filter-wrapper"><a href="#" class="filter-item"><span class="filter-label">ПО ЖАНРАМ</span><div class="filter-toggler"><span class="toggler-label">Все жанры</span> <img src="./images/icons/arrow.svg" alt="" class="toggler-icon"></div></a><a href="#"
+                    class="filter-item"><span class="filter-label">ПО СТРАНАМ</span><div class="filter-toggler"><span class="toggler-label">Россия</span> <img src="./images/icons/flag.svg" alt="" class="toggler-icon flag"></div></a>
+                    <a href="#" class="filter-item"><span class="filter-label">ГОД ВЫПУСКА</span>
+                        <div class="filter-toggler"><span class="toggler-label">2020</span> 
+                            <img src="./images/icons/arrow.svg" alt="" class="toggler-icon">
+                        </div>
+                    </a><a href="#" class="filter-item"><span class="filter-label">КАЧЕСТВО ВИДЕО</span><div class="filter-toggler"><span class="toggler-label">FULL HD 1080</span> <img src="./images/icons/arrow.svg" alt="" class="toggler-icon"></div></a>
+                    <a
+                    href="#" class="filter-item"><span class="filter-label">СОРТИРОВКА</span>
+                        <div class="filter-toggler"><span class="toggler-label">По рейтингу</span> 
+                            <img src="./images/icons/arrow.svg" alt="" class="toggler-icon">
+                        </div>
+                        </a>
                 </div>
-                <div class="carousel-body">
+                <div class="movie-page-inner">
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type free">Бесплатно</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type paid">Покупка</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type free">Бесплатно</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type paid">Покупка</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
+                    </a>
+                    <a href="#" class="movie-card">
+                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
+                    </a>
                     <a href="#" class="movie-card">
                         <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
                     </a>
@@ -131,104 +108,18 @@
                         <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span>
                     </a>
                 </div>
-            </div>
-            <div class="review-carousel">
-                <div class="review-image-holder">
-                    <img src="./images/hollywood.png" alt="">
-                </div>
-                <div class="review-info">
-                    <div class="review-labels">
-                        <h3 class="label-item">Эксклюзивно</h3>
-                        <h3 class="label-item">18+</h3>
-                        <h3 class="label-item quality">FULL HD</h3>
-                    </div>
-                    <div class="review-ratings">
-                        <div class="stars-block">
-                            <img src="./images/icons/star.svg" alt="star item" class="star-item active">
-                            <img src="./images/icons/star.svg" alt="star item" class="star-item active">
-                            <img src="./images/icons/star.svg" alt="star item" class="star-item active">
-                            <img src="./images/icons/star.svg" alt="star item" class="star-item active">
-                            <img src="./images/icons/star.svg" alt="star item" class="star-item">
-                        </div>
-                        <div class="platform-ratings"><span class="rating-score">6.7</span>  <span class="rating-platform">КиноПоиск</span>
-                        </div>
-                    </div>
-                    <div class="review-text">
-                        <h1 class="review-movie-title">Однажды в... Голливуде</h1>
-                        <p class="review-movie-desc">1969 год, золотой век Голливуда уже закончился. Известный актёр Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</p>
-                    </div>
-                    <div class="review-actions">
-                        <div class="watch-actions">
-                            <button class="watch-button">
-                                <img src="./images/icons/watch.svg" alt="">
-                                <h6 class="button-label">Смотреть<br><span>по подписке</span></h6>
-                            </button>
-                            <button class="watch-button favorite">
-                                <img src="./images/icons/Play.svg" alt="">
-                                <h6 class="button-label">Добавить<br><span>в избранное</span></h6>
-                            </button>
-                        </div>
-                        <div class="nav-actions">
-                            <button class="nav-button prev"></button>
-                            <button class="nav-button"></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="movie-carousel">
-                <div class="carousel-header"><a href="#" class="carousel-title">Популярный на Alladdin</a>
-                    <div class="carousel-actions">
-                        <button class="carousel-button prev"></button>
-                        <button class="carousel-button active"></button>
-                    </div>
-                </div>
-                <div class="carousel-body">
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type free">Бесплатно</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type paid">Покупка</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span>
-                    </a>
-                </div>
-            </div>
-            <div class="movie-carousel">
-                <div class="carousel-header"><a href="#" class="carousel-title">Еще не вышло</a>
-                    <div class="carousel-actions">
-                        <button class="carousel-button prev"></button>
-                        <button class="carousel-button active"></button>
-                    </div>
-                </div>
-                <div class="carousel-body">
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type free">Бесплатно</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type paid">Покупка</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span> 
-                    </a>
-                    <a href="#" class="movie-card">
-                        <img src="./images/movie-vertical-rep.png" alt="Movie card" class="card-img"> <span class="movie-title">Джон Уик 3</span>  <span class="watch-type">Подписка</span>
-                    </a>
+                <div class="pagination">
+                    <button class="pagination-button nav prev"></button>
+                    <button class="pagination-button">1</button>
+                    <button class="pagination-button disabled">...</button>
+                    <button class="pagination-button">13</button>
+                    <button class="pagination-button">14</button>
+                    <button class="pagination-button active">15</button>
+                    <button class="pagination-button">16</button>
+                    <button class="pagination-button">17</button>
+                    <button class="pagination-button disabled">...</button>
+                    <button class="pagination-button">98</button>
+                    <button class="pagination-button nav"></button>
                 </div>
             </div>
         </div>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="14px" viewBox="0 0 7 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.9995,14 C0.7735,14 0.5465,13.924 0.3595,13.768 C-0.0645,13.415 -0.1215,12.784 0.2315,12.36 L4.7075,6.989 L0.3925,1.62701 C0.0465,1.19701 0.1145,0.56701 0.5445,0.22101 C0.9755,-0.12499 1.6045,-0.05699 1.9515,0.37301 L6.7795,6.373 C7.0775,6.744 7.0735,7.274 6.7685,7.64 L1.7685,13.64 C1.5705,13.877 1.2865,14 0.9995,14 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow">
+            <path d="M0.9995,14 C0.7735,14 0.5465,13.924 0.3595,13.768 C-0.0645,13.415 -0.1215,12.784 0.2315,12.36 L4.7075,6.989 L0.3925,1.62701 C0.0465,1.19701 0.1145,0.56701 0.5445,0.22101 C0.9755,-0.12499 1.6045,-0.05699 1.9515,0.37301 L6.7795,6.373 C7.0775,6.744 7.0735,7.274 6.7685,7.64 L1.7685,13.64 C1.5705,13.877 1.2865,14 0.9995,14 Z" id="Path" fill="#FFFFFF"></path>
+            <g id="Clipped">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Path"></g>
+            </g>
+        </g>
+    </g>
+</svg>
